@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio de Wafa Miledi – Spécialiste en Management & Gestion de l'Information. Diplômée de l'IHEC Carthage, passionnée par la communication d'entreprise et l'analyse organisationnelle." />
+  <title>Wafa Miledi – Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">WM</a>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">À propos</a></li>
+        <li><a href="#skills" class="nav-link">Compétences</a></li>
+        <li><a href="#experience" class="nav-link">Expérience</a></li>
+        <li><a href="#projects" class="nav-link">Projets</a></li>
+        <li><a href="#associations" class="nav-link">Engagement</a></li>
+        <li><a href="#contact" class="nav-link btn-contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-bg">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="orb orb3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Disponible pour opportunités
+      </div>
+      <h1 class="hero-name">Wafa <span class="accent">Miledi</span></h1>
+      <p class="hero-title">Spécialiste en <span class="typed-text" id="typed"></span></p>
+      <p class="hero-subtitle">Diplômée IHEC Carthage · Monastir, Tunisie</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn-primary" id="hero-contact-btn">
+          <span>Me contacter</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="cv wafa miledi.pdf" download class="btn-secondary" id="hero-download-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Télécharger mon CV
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">3</span>
+          <span class="stat-label">Ans de formation</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">4</span>
+          <span class="stat-label">Langues maîtrisées</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">3+</span>
+          <span class="stat-label">Engagements associatifs</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Défiler</span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Qui suis-je ?</p>
+        <h2 class="section-title">À propos de moi</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-card-main">
+            <div class="avatar-ring">
+              <div class="avatar-initials">WM</div>
+            </div>
+            <div class="about-info">
+              <h3>Wafa Miledi</h3>
+              <p>Management & Gestion de l'Information</p>
+            </div>
+            <div class="about-tags">
+              <span class="tag">♻️ Environnement</span>
+              <span class="tag">💡 Innovation</span>
+              <span class="tag">📊 Data</span>
+              <span class="tag">🤝 Leadership</span>
+            </div>
+          </div>
+          <div class="about-card-float card-float1">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <span>Mention Très Bien au Bac</span>
+          </div>
+          <div class="about-card-float card-float2">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            <span>IHEC Carthage</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="about-description">
+            Diplômée d'une <strong>Licence en Sciences de Gestion</strong> (spécialité Management) de l'IHEC Carthage, je souhaite intégrer un master pour renforcer mon expertise en management et en analyse organisationnelle.
+          </p>
+          <p class="about-description">
+            Dotée d'un esprit rigoureux et d'une forte motivation, je m'intéresse particulièrement à la <strong>communication d'entreprise</strong>, à la <strong>gestion de l'information</strong> et à l'amélioration continue des pratiques managériales.
+          </p>
+          <div class="about-details">
+            <div class="detail-item" id="detail-phone">
+              <div class="detail-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+              </div>
+              <span>+216 56 215 075</span>
+            </div>
+            <div class="detail-item" id="detail-email">
+              <div class="detail-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <a href="mailto:miledywafa@gmail.com">miledywafa@gmail.com</a>
+            </div>
+            <div class="detail-item" id="detail-location">
+              <div class="detail-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <span>Monastir, Tunisie</span>
+            </div>
+            <a href="https://www.linkedin.com/in/miledi-wafa-548b54336/" target="_blank" rel="noopener noreferrer" class="detail-item" id="detail-linkedin">
+              <div class="detail-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </div>
+              <span style="color: var(--primary-light);">Wafa Miledi → LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Parcours académique</p>
+        <h2 class="section-title">Formation</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item" id="edu-ihec">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="timeline-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <div>
+                <h3 class="timeline-title">IHEC Carthage</h3>
+                <span class="timeline-period">2023 – 2026</span>
+              </div>
+            </div>
+            <p class="timeline-degree">Licence en Sciences de Gestion</p>
+            <p class="timeline-spec">Spécialité : Management</p>
+            <p class="timeline-location">Carthage, Tunisie</p>
+            <div class="timeline-tags">
+              <span class="tag-edu">Management</span>
+              <span class="tag-edu">Organisation</span>
+              <span class="tag-edu">Gestion de l'info</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item" id="edu-bac">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="timeline-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <div>
+                <h3 class="timeline-title">Lycée Ksibet-Mediouni</h3>
+                <span class="timeline-period">2023</span>
+              </div>
+            </div>
+            <p class="timeline-degree">Baccalauréat Économie et Gestion</p>
+            <p class="timeline-location">Monastir, Tunisie</p>
+            <div class="timeline-badge">
+              <span>⭐ Mention Très Bien</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Savoir-faire</p>
+        <h2 class="section-title">Compétences</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card" id="skill-management">
+          <div class="skill-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <h3>Management & Organisation</h3>
+          <ul class="skill-list">
+            <li>Management d'équipe</li>
+            <li>Analyse organisationnelle</li>
+            <li>Gestion de projet</li>
+          </ul>
+        </div>
+        <div class="skill-card" id="skill-info">
+          <div class="skill-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3>Gestion de l'Information</h3>
+          <ul class="skill-list">
+            <li>Reporting & Collecte de données</li>
+            <li>Traitement de l'information</li>
+            <li>Veille informationnelle</li>
+          </ul>
+        </div>
+        <div class="skill-card" id="skill-comm">
+          <div class="skill-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+          </div>
+          <h3>Communication</h3>
+          <ul class="skill-list">
+            <li>Communication professionnelle</li>
+            <li>Communication interne & externe</li>
+            <li>Rédaction de rapports</li>
+          </ul>
+        </div>
+        <div class="skill-card" id="skill-tools">
+          <div class="skill-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Outils Informatiques</h3>
+          <ul class="skill-list">
+            <li>Microsoft Excel</li>
+            <li>Microsoft Word</li>
+            <li>Microsoft PowerPoint</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Languages -->
+      <div class="languages-section">
+        <h3 class="languages-title">Langues</h3>
+        <div class="languages-grid">
+          <div class="lang-item" id="lang-ar">
+            <div class="lang-flag">🇹🇳</div>
+            <div class="lang-info">
+              <span class="lang-name">Arabe</span>
+              <span class="lang-level">Langue maternelle</span>
+            </div>
+            <div class="lang-bar"><div class="lang-fill" style="width:100%"></div></div>
+          </div>
+          <div class="lang-item" id="lang-fr">
+            <div class="lang-flag">🇫🇷</div>
+            <div class="lang-info">
+              <span class="lang-name">Français</span>
+              <span class="lang-level">Courant</span>
+            </div>
+            <div class="lang-bar"><div class="lang-fill" style="width:90%"></div></div>
+          </div>
+          <div class="lang-item" id="lang-en">
+            <div class="lang-flag">🇬🇧</div>
+            <div class="lang-info">
+              <span class="lang-name">Anglais</span>
+              <span class="lang-level">Courant</span>
+            </div>
+            <div class="lang-bar"><div class="lang-fill" style="width:85%"></div></div>
+          </div>
+          <div class="lang-item" id="lang-it">
+            <div class="lang-flag">🇮🇹</div>
+            <div class="lang-info">
+              <span class="lang-name">Italien</span>
+              <span class="lang-level">Intermédiaire</span>
+            </div>
+            <div class="lang-bar"><div class="lang-fill" style="width:55%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Terrain</p>
+        <h2 class="section-title">Expérience Professionnelle</h2>
+      </div>
+      <div class="exp-card" id="exp-sancella">
+        <div class="exp-header">
+          <div class="exp-logo">S</div>
+          <div class="exp-meta">
+            <h3>SANCELLA Tunisie</h3>
+            <p class="exp-role">Stage de fin d'études – Direction Logistique</p>
+            <span class="exp-date">2026</span>
+          </div>
+          <div class="exp-badge">Stage</div>
+        </div>
+        <div class="exp-body">
+          <p class="exp-topic">
+            <strong>Sujet :</strong> Impact du style de leadership sur l'optimisation de la gestion de l'information
+          </p>
+          <ul class="exp-list">
+            <li>
+              <span class="bullet"></span>
+              Réalisation d'un diagnostic managérial et analyse des résultats d'un questionnaire interne
+            </li>
+            <li>
+              <span class="bullet"></span>
+              Proposition d'axes d'amélioration pour renforcer la communication, la coordination et le reporting au sein de la Direction Logistique
+            </li>
+          </ul>
+        </div>
+        <div class="exp-tags">
+          <span class="exp-tag">Leadership</span>
+          <span class="exp-tag">Reporting</span>
+          <span class="exp-tag">Diagnostic managérial</span>
+          <span class="exp-tag">Communication</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Académique</p>
+        <h2 class="section-title">Projets</h2>
+      </div>
+      <div class="project-card" id="project-compotech">
+        <div class="project-visual">
+          <div class="project-icon-wrapper">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="project-glow"></div>
+        </div>
+        <div class="project-content">
+          <div class="project-meta">
+            <span class="project-source">IHEC Carthage</span>
+            <span class="project-year">2024</span>
+          </div>
+          <h3 class="project-title">Projet CompoTech</h3>
+          <p class="project-subtitle">Étude de marché</p>
+          <p class="project-description">
+            Réalisation d'une étude de marché pour une machine de compostage innovante destinée aux particuliers et aux professionnels. Développement de compétences en analyse de marché, étude des besoins clients, segmentation et réflexion entrepreneuriale.
+          </p>
+          <div class="project-skills">
+            <span class="proj-tag">Analyse de marché</span>
+            <span class="proj-tag">Segmentation</span>
+            <span class="proj-tag">Entrepreneuriat</span>
+            <span class="proj-tag">Innovation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Associations Section -->
+  <section id="associations" class="associations section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Implication</p>
+        <h2 class="section-title">Engagement Associatif</h2>
+      </div>
+      <div class="asso-grid">
+        <div class="asso-card" id="asso-aiesec">
+          <div class="asso-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+          </div>
+          <div class="asso-content">
+            <h3>AIESEC IHEC Carthage</h3>
+            <span class="asso-role">Membre du comité d'organisation</span>
+            <span class="asso-period">2024</span>
+            <p>Co-organisation de deux événements dédiés à l'innovation, aux startups, à la finance et à l'intelligence artificielle, avec intervention de personnalités reconnues du secteur.</p>
+          </div>
+          <div class="asso-tags">
+            <span>Innovation</span>
+            <span>Startups</span>
+            <span>IA</span>
+          </div>
+        </div>
+        <div class="asso-card" id="asso-jci">
+          <div class="asso-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="asso-content">
+            <h3>Jeune Chambre Internationale</h3>
+            <span class="asso-role">Membre active – Conseillère juridique</span>
+            <span class="asso-period">2020 – 2022</span>
+            <p>Accompagnement juridique des membres et participation aux activités de l'association.</p>
+          </div>
+          <div class="asso-tags">
+            <span>Juridique</span>
+            <span>Leadership</span>
+          </div>
+        </div>
+        <div class="asso-card" id="asso-env">
+          <div class="asso-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22c4-4 8-8 8-12a8 8 0 00-16 0c0 4 4 8 8 12z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div class="asso-content">
+            <h3>Association de Protection de l'Environnement</h3>
+            <span class="asso-role">Membre active – Ksibet Mediouni</span>
+            <span class="asso-period">2020 – 2022</span>
+            <p>Membre active impliquée dans des actions de sensibilisation à la protection de l'environnement.</p>
+          </div>
+          <div class="asso-tags">
+            <span>Environnement</span>
+            <span>Sensibilisation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Restons en contact</p>
+        <h2 class="section-title">Me Contacter</h2>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <p class="contact-intro">Je suis ouverte à toutes opportunités professionnelles, stages, ou collaborations. N'hésitez pas à me contacter !</p>
+          <div class="contact-items">
+            <a href="tel:+21656215075" class="contact-item" id="contact-phone">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">Téléphone</span>
+                <span class="contact-value">+216 56 215 075</span>
+              </div>
+            </a>
+            <a href="mailto:miledywafa@gmail.com" class="contact-item" id="contact-email">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">Email</span>
+                <span class="contact-value">miledywafa@gmail.com</span>
+              </div>
+            </a>
+            <div class="contact-item" id="contact-location">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">Localisation</span>
+                <span class="contact-value">Monastir, Tunisie</span>
+              </div>
+            </div>
+            <a href="https://www.linkedin.com/in/miledi-wafa-548b54336/" target="_blank" rel="noopener noreferrer" class="contact-item" id="contact-linkedin">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">miledi-wafa</span>
+              </div>
+            </a>
+          </div>
+          <a href="cv wafa miledi.pdf" download class="btn-download-cv" id="contact-download-cv">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Télécharger mon CV (PDF)
+          </a>
+        </div>
+        <form class="contact-form" id="contact-form" action="https://formspree.io/f/TON_ID_FORMSPREE" method="POST">
+          <input type="hidden" name="_subject" value="Nouveau message depuis votre portfolio ✉️" />
+          <input type="hidden" name="_language" value="fr" />
+          <div class="form-group">
+            <label for="form-name">Votre nom</label>
+            <input type="text" id="form-name" name="name" placeholder="Jean Dupont" required />
+          </div>
+          <div class="form-group">
+            <label for="form-email">Votre email</label>
+            <input type="email" id="form-email" name="email" placeholder="jean@exemple.com" required />
+          </div>
+          <div class="form-group">
+            <label for="form-subject">Sujet</label>
+            <input type="text" id="form-subject" name="subject" placeholder="Opportunité de stage, collaboration..." required />
+          </div>
+          <div class="form-group">
+            <label for="form-message">Message</label>
+            <textarea id="form-message" name="message" rows="4" placeholder="Votre message..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full" id="form-submit">
+            <span>Envoyer le message</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+          <p class="form-note">📬 Message envoyé directement à <strong>miledywafa@gmail.com</strong></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-name">Wafa Miledi</p>
+        <p class="footer-copy">© 2026 · Spécialiste en Management & Gestion de l'Information</p>
+        <p class="footer-made">Monastir, Tunisie 🇹🇳</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
