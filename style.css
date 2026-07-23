@@ -849,14 +849,15 @@ ul { list-style: none; }
   justify-content: center;
   flex-shrink: 0;
   overflow: hidden;
-  border: 1px solid rgba(255,255,255,0.15);
-  padding: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
 }
 
 .exp-logo img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  display: block;
+  padding: 5px;
 }
 
 .exp-meta { flex: 1; }
