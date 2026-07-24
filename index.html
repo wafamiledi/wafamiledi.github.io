@@ -90,7 +90,7 @@
         <div class="about-visual">
           <div class="about-card-main">
             <div class="avatar-ring">
-              <div class="avatar-initials">WM</div>
+              <img src="wafa.jpeg" alt="Photo de Wafa Miledi" class="avatar-photo" />
             </div>
             <div class="about-info">
               <h3>Wafa Miledi</h3>
@@ -488,31 +488,31 @@
             Télécharger mon CV (PDF)
           </a>
         </div>
-        <form class="contact-form" id="contact-form" action="https://formspree.io/f/TON_ID_FORMSPREE" method="POST">
-          <input type="hidden" name="_subject" value="Nouveau message depuis votre portfolio ✉️" />
-          <input type="hidden" name="_language" value="fr" />
-          <div class="form-group">
-            <label for="form-name">Votre nom</label>
-            <input type="text" id="form-name" name="name" placeholder="Jean Dupont" required />
+        <div class="mailto-card" id="mailto-card">
+          <div class="mailto-icon-wrap">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
           </div>
-          <div class="form-group">
-            <label for="form-email">Votre email</label>
-            <input type="email" id="form-email" name="email" placeholder="jean@exemple.com" required />
-          </div>
-          <div class="form-group">
-            <label for="form-subject">Sujet</label>
-            <input type="text" id="form-subject" name="subject" placeholder="Opportunité de stage, collaboration..." required />
-          </div>
-          <div class="form-group">
-            <label for="form-message">Message</label>
-            <textarea id="form-message" name="message" rows="4" placeholder="Votre message..." required></textarea>
-          </div>
-          <button type="submit" class="btn-primary btn-full" id="form-submit">
-            <span>Envoyer le message</span>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
-          </button>
-          <p class="form-note">📬 Message envoyé directement à <strong>miledywafa@gmail.com</strong></p>
-        </form>
+          <h3 class="mailto-title">Écrire un message</h3>
+          <p class="mailto-desc">Cliquez sur le bouton ci-dessous pour m'envoyer un email directement depuis votre application mail.</p>
+          <a href="mailto:miledywafa@gmail.com?subject=Message%20depuis%20votre%20portfolio&body=Bonjour%20Wafa%2C%0A%0AJe%20vous%20contacte%20depuis%20votre%20portfolio.%0A%0A"
+             class="btn-primary mailto-btn" id="mailto-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="22" y1="2" x2="11" y2="13"/>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+            </svg>
+            <span>Envoyer un email</span>
+          </a>
+          <p class="mailto-address">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            miledywafa@gmail.com
+          </p>
+        </div>
       </div>
     </div>
   </section>
