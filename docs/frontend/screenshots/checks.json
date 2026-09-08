@@ -1,0 +1,62 @@
+[
+  {
+    "width": 1440,
+    "overflow": false,
+    "canvas": true,
+    "font": true,
+    "headings": 1,
+    "brokenAnchors": [],
+    "errors": [],
+    "copied": "Adresse e-mail copiée.",
+    "fallback": "Copiez cette adresse : miledywafa@gmail.com",
+    "pdf": 200,
+    "paused": "true",
+    "reduced": true,
+    "brokenImages": []
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "canvas": true,
+    "font": true,
+    "headings": 1,
+    "brokenAnchors": [],
+    "errors": [],
+    "copied": "Adresse e-mail copiée.",
+    "fallback": "Copiez cette adresse : miledywafa@gmail.com",
+    "pdf": 200,
+    "paused": "true",
+    "reduced": true,
+    "brokenImages": []
+  },
+  {
+    "width": 320,
+    "overflow": false,
+    "canvas": true,
+    "font": true,
+    "headings": 1,
+    "brokenAnchors": [],
+    "errors": [],
+    "copied": "Adresse e-mail copiée.",
+    "fallback": "Copiez cette adresse : miledywafa@gmail.com",
+    "pdf": 200,
+    "paused": "true",
+    "reduced": true,
+    "brokenImages": []
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "canvas": true,
+    "font": true,
+    "headings": 1,
+    "brokenAnchors": [],
+    "errors": [],
+    "copied": "Adresse e-mail copiée.",
+    "fallback": "Copiez cette adresse : miledywafa@gmail.com",
+    "pdf": 200,
+    "paused": "true",
+    "reduced": true,
+    "brokenImages": []
+  }
+]

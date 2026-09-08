@@ -1,0 +1,75 @@
+[
+  {
+    "width": 1440,
+    "overflow": false,
+    "canvas": false,
+    "motionControl": false,
+    "portraitCaption": "IHEC Carthage · Promotion 2026",
+    "contrast": {
+      "body": 15.43,
+      "muted": 7.89,
+      "accent": 8.68,
+      "caption": 4.8,
+      "name": 10.29
+    },
+    "brokenAnchors": 0,
+    "errors": [],
+    "pdf": 200,
+    "animationRequests": []
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "canvas": false,
+    "motionControl": false,
+    "portraitCaption": "IHEC Carthage · Promotion 2026",
+    "contrast": {
+      "body": 15.43,
+      "muted": 7.89,
+      "accent": 8.68,
+      "caption": 4.8,
+      "name": 10.29
+    },
+    "brokenAnchors": 0,
+    "errors": [],
+    "pdf": 200,
+    "animationRequests": []
+  },
+  {
+    "width": 320,
+    "overflow": false,
+    "canvas": false,
+    "motionControl": false,
+    "portraitCaption": "IHEC Carthage · Promotion 2026",
+    "contrast": {
+      "body": 15.43,
+      "muted": 7.89,
+      "accent": 8.68,
+      "caption": 4.8,
+      "name": 10.29
+    },
+    "brokenAnchors": 0,
+    "zoomOverflow": false,
+    "errors": [],
+    "pdf": 200,
+    "animationRequests": []
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "canvas": false,
+    "motionControl": false,
+    "portraitCaption": "IHEC Carthage · Promotion 2026",
+    "contrast": {
+      "body": 15.43,
+      "muted": 7.89,
+      "accent": 8.68,
+      "caption": 4.8,
+      "name": 10.29
+    },
+    "brokenAnchors": 0,
+    "errors": [],
+    "pdf": 200,
+    "animationRequests": []
+  }
+]
